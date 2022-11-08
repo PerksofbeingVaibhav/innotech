@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dissability affairs</title>
+
+    <link rel="stylesheet" href="first.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <img src="images/swa.png" class="az">
+    <div class="img">
+
+        <!-- <img class="image" src="images/pngegg.png" > -->
+        <img src="./images/gov.png">
+
+        <!-- <p>Government of India</p> -->
+    </div>
+
+    <body>
+
+        <header>
+            <nav class="navbar">
+
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Services
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="http://www.disabilityjobs.gov.in/">Jobs</a>
+                            <a href="https://www.swavlambancard.gov.in/findNearestMedicalAutority">Hospitals</a>
+                            <a href="https://www.edudwar.com/schools-for-disabled-students-in-india/">Schools</a>
+                        </div>
+                    </div>
+                    <li><a href="#">About Us</a></li>
+
+                    <div class="dropdown">
+                        <button class="dropbtn">Policy/Acts/Rules
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="https://disabilityaffairs.gov.in/content/page/national-policy.php">National
+                                Policy</a>
+                            <a href="https://disabilityaffairs.gov.in/content/page/internationl-policy.php">International
+                                Policy</a>
+                            <a href="https://disabilityaffairs.gov.in/content/page/acts.php">Acts</a>
+                            <a hret="https://disabilityaffairs.gov.in/content/page/rules-regulations.php">Rules
+                                Regulation</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">Schems
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="https://blog.mygov.in/welfare-schemes-for-persons-with-disabilities/">Government
+                                Schems</a>
+                            <a href="https://www.india.gov.in/spotlight/unique-disability-id">Certificate</a>
+                            <a href="https://disabilityaffairs.gov.in/content/page/scholarship.php">Scholarships</a>
+                        </div>
+                    </div>
+                    </div>
+                    <li><a href="#">Publications</a></li>
+                    <li><a href="#">RTI</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <div class="search">
+                        <input type="text" name="search" id="search" placeholder="search this website">
+                    </div>
+                </ul>
+            </nav>
+        </header>
+        <!----
+     <div id="slider">
+        <figure>
+              <img src="images/26994328.jpg" class="prop">
+              <img src="images/AdobeStock_49622485-e1571306149811.jpeg" class="prop">
+              <img src="images/young_boys_practicing_sign_language-1200x628-facebook-1200x628.jpg" class="prop">
+        </figure>
+  </div>
+-->
+        <!-- <img src="images/26994328.jpg" class="foot"> -->
+        <div class="slider-box">
+            <div id="sld">
+                <img src="images/26994328.jpg">
+                <img src="images/AdobeStock_49622485-e1571306149811.jpeg">
+                <img src="images/young_boys_practicing_sign_language-1200x628-facebook-1200x628.jpg">
+            </div>
+            <div class="indicators">
+                <span id="btn1" class="active"></span>
+                <span id="btn2"></span>
+                <span id="btn3"></span>
+            </div>
+        </div>
+        <script>
+            var slide = document.getElementById("sld");
+            var btn1 = document.getElementById("btn1");
+            var btn2 = document.getElementById("btn2");
+            var btn3 = document.getElementById("btn3");
+            btn1.onclick = function () {
+                slide.style.transform = "translateX(0px)";
+                btn1.classList.add("active");
+                btn2.classList.remove("active");
+                btn3.classList.remove("active");
+            }
+            btn2.onclick = function () {
+                slide.style.transform = "translateX(-100%)";
+                btn2.classList.add("active");
+                btn1.classList.remove("active");
+                btn3.classList.remove("active");
+            }
+            btn3.onclick = function () {
+                slide.style.transform = "translateX(-200%)";
+                btn3.classList.add("active");
+                btn1.classList.remove("active");
+                btn2.classList.remove("active");
+            }
+        </script>
+        <div class="marquee">
+            <marquee>Public Notice Inviting Comments on Draft RPwD (Amendment) Rules, 2022 </marquee>
+            <marquee>UDID Helpline - Central-24365019 & State wise Directory</marquee>
+        </div>
+        
+        <div class="minister">
+            <ul class="bye">
+                <li><a href="https://disabilityaffairs.gov.in/content/page/meet-the-minister.php" target="_blank">Meet the ministers</a></li>
+                <li><a href="https://disabilityaffairs.gov.in/content/page/events.php">Events/Gallery</a></li>
+                <li><a href="https://disabilityaffairs.gov.in/content/page/whats-new.php">What's new</a></li>
+            </ul>
+
+            <div class="hi">
+                <h3>Welcome to our website</h3>
+                <span>
+                    The Department of Empowerment of Persons with Disabilities in the Ministry of Social Justice &
+                    Empowerment facilitates empowerment of the persons with disabilities, who as per Census 2011 are 2.68
+                    crore and are 2.21 percent of the total population of the Country. These include persons with Visual,
+                    Hearing, Speech & Locomotive disability, Mental Retardation, Mental Illness, Multiple Disability and any
+                    other disabilities.
+                </span>
+            </div>
+        </div>
+
+        
+    </body>
+
+</html>
